@@ -1,11 +1,12 @@
-﻿using Pacagroup.Ecommerce.Domain.Entity;
+﻿using System;
 using System.Collections.Generic;
+using System.Text;
+using Pacagroup.Ecommerce.Domain.Entity;
 using System.Threading.Tasks;
 
-namespace Pacagroup.Ecommerce.Infraestructure.Interface
+namespace Pacagroup.Ecommerce.Domain.Interface
 {
-    
-    public interface ICustomersRepository
+    public interface ICustomerDomain
     {
         #region Métodos síncronos
         bool Insert(Customers customer);
